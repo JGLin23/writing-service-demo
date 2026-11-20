@@ -1,0 +1,25 @@
+{
+  "name": "fit3048-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standalone demo of my FIT3048 project parts: writing service + admin dashboard, client-admin chat, and photo sales with watermarking. Mock data only.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^15.5.7",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.6.0"
+  }
+}
